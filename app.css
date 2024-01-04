@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-image: url('background.jpg'); */
+    background-repeat: no-repeat;
+    background-image: url('background.jpg');
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: blue;
+    padding: 10px;
+    height: 80px;
+}
+header img{
+    width: 80px;
+    margin-left:10%;
+}
+h1, h5, p{
+    color: white;
+}
+ul{
+  float: right;
+  margin-top: 40px;
+}
+a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: white;
+}
+.content{
+    margin: 10%;
+}
